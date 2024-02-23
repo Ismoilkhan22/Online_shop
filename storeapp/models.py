@@ -3,7 +3,8 @@ from django.db import models
 import uuid
 from django.contrib.auth.models import User
 from django.conf import settings
-from UserProfile.models import Customer
+
+from Userprofile.models import Customer
 
 
 # Create your models here.
