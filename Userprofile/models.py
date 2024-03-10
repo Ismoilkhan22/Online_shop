@@ -47,7 +47,3 @@ def createProfile(sender, instance, created, *args, **kwargs):
         customer_user.last_name = instance.last_name
         customer_user.save()
 
-
-from django.db import models
-
-# Create your models here.
